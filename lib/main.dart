@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
       title: 'e-QuizzMath',
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 2).theme(),
-
     );
   }
 }
