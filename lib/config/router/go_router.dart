@@ -1,3 +1,4 @@
+
 import 'package:e_quizzmath_app/presentation/screens/screens.dart';
 import 'package:go_router/go_router.dart';
 
@@ -23,6 +24,11 @@ final appRouter = GoRouter(
       path: '/login',
       name: LoginScreem.name,
       builder: (context, state) =>  LoginScreem(),
+    ),
+    GoRoute(
+      path: '/olvidepassword',
+      name: OlvidePassword.name,
+      builder: (context, state) =>  OlvidePassword(),
     ),
   ],
 );

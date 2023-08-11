@@ -1,8 +1,5 @@
-import 'package:e_quizzmath_app/config/theme/app_theme.dart';
-import 'package:e_quizzmath_app/presentation/screens/menu/menu_screem.dart';
 import 'package:e_quizzmath_app/presentation/screens/screens.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 class SlideInfo {
   final String title;
